@@ -8,8 +8,8 @@ setup(
     install_requires=[
         'gdown',
         'numpy',
-        'torch',
-        'torchvision',
+        'torch==1.12.1+cu113',
+        'torchvision==0.13.1+cu113',
         'pytorch-lightning',
         'smplx==0.1.28',
         'pyrender',
